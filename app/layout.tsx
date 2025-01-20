@@ -1,13 +1,12 @@
-import '../src/styles/globals.css'
+import Layout from '@/components/Layout'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Layout from "@/src/components/Layout";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-title: 'Ecommerce',
-description: 'Ecommerce com nextjs',
+    title: 'Ecommerce',
+    description: 'Ecommerce com nextjs',
 }
 
 export default function RootLayout({
