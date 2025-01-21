@@ -60,8 +60,8 @@ const HomePage: React.FC = () => {
              <header className="bg-primary p-4 text-white">
                  <div className="container mx-auto flex items-center justify-between">
                      <div className="flex items-center">
-                        <Image src="/logo.svg" alt="Logo da loja" width={40} height={40} className="mr-2"/>
-                         <h1 className="text-2xl font-bold">Minha Loja</h1>
+                        <Image src="/join_ti_logo.jpg" alt="Logo da loja" width={40} height={40} className="mr-2"/>
+                         <h1 className="text-2xl font-bold text-black">Minha Loja</h1>
                      </div>
                      <input
                          type="text"
